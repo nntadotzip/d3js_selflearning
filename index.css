@@ -1,0 +1,15 @@
+﻿body{
+    margin-bottom: 40px!important;
+}
+
+.bar {
+    fill: steelblue;
+}
+
+.bar:hover {
+    fill: brown;
+}
+
+.axis--x path {
+    display: none;
+}

@@ -1,0 +1,46 @@
+﻿<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Learning D3js</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h1 class="text-center" style="margin: 20px auto;">DATA INPUTTED FROM KEYBOARD</h1>
+        <div class="col-md-6">
+            <div class="barchart">
+                <h2>Bar chart</h2>
+                <svg class="bar-chart"></svg>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="piechart">
+                <h2>Pie chart</h2>
+                <svg class="svg-piechart"></svg>
+            </div>
+        </div>
+        <div class="col-md-12" style="text-align: center; margin-top: 20px">
+            <h1 class="text-center">DATA GET FROM API</h1>
+            <i><a href="https://api.coindesk.com/v1/bpi/historical/close.json?start=2017-12-31&end=2018-04-01">https://api.coindesk.com/v1/bpi/historical/close.json?start=2017-12-31&end=2018-04-01</a></i>
+        </div>
+        <div class="col-md-6">
+            <div class="linechart">
+                <h2>Line chart</h2>
+                <svg class="svg-linechart"></svg>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="barchartAPI">
+                <h2>Bar chart</h2>
+                <svg class="svg-barchartAPI" style="width: 1200px"></svg>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="d3.v5.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
